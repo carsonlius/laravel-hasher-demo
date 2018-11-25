@@ -1,0 +1,18 @@
+{
+  "name": "carsonlius/hasher",
+  "description": "MD6 support in laravel",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "carsonlius",
+      "email": "carsonlius@163.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Carsonlius\\Hasher\\": "src/"
+    }
+  }
+}
