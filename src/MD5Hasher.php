@@ -27,6 +27,7 @@ class MD5Hasher
     public function check(string $value, string $hashValue, array $option=[]) : bool
     {
         $slat = $option['salt'] ?? '';
+
         return hash('md5', $value . $slat) === $hashValue;
     }
 }
