@@ -9,6 +9,12 @@
 
 ###  使用
 
-+ Facade `Md5Hasher`
-+ app('md5Hasher')
++ 调用方式  
+    + Facade `Md5Hasher`
+    + app('md5Hasher')
++ 可用方法
+    + make() 生成md5加密之后加密值
+    + check() 校验值和某个加密之后的值匹配
 
+### publish config file
+    + php artisan vendor:publish 
